@@ -1,0 +1,13 @@
+<div class="carousel" style="padding: 0">
+    <div class="scroll-button left btn btn-primary" ng-click="changePosition(-1)" ng-class="{disabled: position == 0}">
+        <i class="material-icons md-96 arrow">keyboard_arrow_left</i>
+    </div>
+    <div class="card-container">
+        <section class="card" ng-repeat="section in sections" ng-style="{left: (-450 * position) + (400 * $index) + (50 * $index) + 20 + 'px', top: '20px'}">
+            <h1>{{section.text}}</h1>
+        </section>
+    </div>
+    <div class="scroll-button right btn btn-primary" ng-click="changePosition(1)" ng-class="{disabled: position >= (sections.length - 3)}">
+        <i class="material-icons md-96 arrow">keyboard_arrow_right</i>
+    </div>
+</div>

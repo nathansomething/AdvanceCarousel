@@ -1,0 +1,47 @@
+div.carousel {
+    border: 3px solid black;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 100px;
+    height: 500px;
+    width: 1560px;
+}
+div.scroll-button {
+    height: inherit;
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+.right {
+    right: 0;
+}
+.left {
+    left: 0;
+}
+
+div.card-container {
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    overflow: hidden;
+    background-color: #999;
+}
+section.card {
+    border: 2px solid #000;
+    border-radius: 6px;
+    -moz-box-shadow:    3px 3px 5px 6px #888;
+    -webkit-box-shadow: 3px 3px 5px 6px #888;
+    box-shadow:         3px 3px 5px 6px #888;
+    position: absolute;
+    width: 420px;
+    height: 90%;
+    text-align: center;
+    z-index: 0;
+    background-color: #CCC;
+}
+i.arrow {
+    position: absolute;
+    left: 10px;
+    top: 190px;
+}
